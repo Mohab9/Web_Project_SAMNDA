@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Lobster&family=Rampart+One&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>ADMIN PAGE</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <a href="HOME.html">
+            <img src="ico2.png" width="270" height="90" id="looogooo" />
+
+        </a>
+        <button id="Submit" onclick="alert('Visit SMNDA Soon...'); window.location='logout.html'">logout</button>
+    </div>
+    <div id="page">
+
+        <div id="container">
+            <form action="index.html" method="GET">
+                <h1></h1>
+                <label for="bg1">Change Background Color : </label>
+                <input type="text" id="bg1" placeholder="Enter Your Color "><br>
+                <label for="fs">Change Font Size : </label>
+                <span id="s1"><input type="range" id="fs" min="14" max="30" step="2" value="16"></span><br>
+                <label for="fc1">Change Font Color : </label>
+                <input type="text" id="fc1" placeholder="Enter Your Color"><br>
+                <label for="ft">Change Font Type : </label>
+                <select name="fonts" id="ft"> 
+                <option >Rampart One</option>
+                <option >Roboto Mono</option>
+                <option >Allison</option>
+                <option >Lobster</option>
+            </select><br>
+                <label for="is">Change Image : </label>
+                <input type="button" value="Replace" onclick="change2();"><br>
+                <label for="bsc1">Change nav bar & footer Color : </label>
+                <input type="text" id="bsc1" placeholder="Enter Your Color"><br>
+
+                <input type="button" id="btn1" value="Change" onclick="change1();">
+
+            </form>
+        </div>
+        <div id="img">
+             <img src="images.jpg" id="myImg"> 
+        </div>
+        <div id="para">
+           <p id="imgpara"> Credits : <br>
+               Sohyb , Mohab , Nourhan , Doha , Ahmed
+           </p>  
+        </div>
+        <footer id="ftr">
+            <div id="d1">
+                <p id="copyright"> &#169 SMNDA 2021- All Right Reserved.</p>
+                
+            </div>
+            <div id="d2">
+                <a href="https://www.google.com/" target="_blank"> <img src="go.png" width="28" height="28" id="googleicon"></a>
+                <a href="https://facebook.com/" target="_blank"> <img src="facebook1.png" width="27" height="27" id="facebookicon"></a>
+                <a href="https://instgram.com/" target="_blank"> <img src="insta.png" width="28" height="28" id="twittericon"></a>
+            </div>
+            <div>
+                <p id="PP"> مشاهدة الافلام اونلاين SMNDA Cinema موقع </p>
+            </div>
+        </footer>
+    </div>
+    <script src="java.js"></script>
+</body>
+
+</html>

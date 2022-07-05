@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+
+body {
+    background: fixed;
+    background-image: url("w5.jpg");
+    height: auto;
+    background-size: 1620px;
+}
+
+nav {
+    background-color: #161e2d;
+    opacity: .7;
+    height: 80px;
+    width: 100%;
+}
+
+
+.looogooo {
+    margin-left: 50px;
+    margin-top: -8px;
+}
+.logout {
+    height:598.9px;
+}
+    .logout img {
+       float:right;
+    }
+
+.thx {
+    width: 70%;
+    font-family: 'Times New Roman';
+    font-size: 80px;
+    color: cornflowerblue;
+    margin-left: 150px;
+}
+.we {
+    font-size: 45px;
+    color: white;
+    margin-left: 150px;
+}
+.log{
+    color:white;
+    margin-left: 150px;
+    font-size:30px;
+}
+.foot {
+    
+    background: #161e2d;
+    margin: 15px 2px 0 2px;
+    padding: 0;
+    opacity: .7;
+}
+
+#copyright {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0 0 5px;
+    width: 430px;
+    color: white;
+}
+
+#googleicon, #facebookicon, #twittericon {
+    padding: 2px 20px 0 5px;
+    position: relative;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.PP {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    color: white;
+}
+a{
+    background:none;
+    text-decoration:none;
+
+}
+    a:hover, a.activee {
+        color: cornflowerblue;
+        font-size: 35px;
+        transition: .3s;
+    }
